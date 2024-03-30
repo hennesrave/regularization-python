@@ -2,7 +2,7 @@
 Python implementation of our GPU-based algorithm for scatterplot regularization.
 
 # Installation (Ubuntu 22.04 LTS)
-1. Install the Vulkan SDK and required Python packages or simply run `setup.sh` 
+1. Simply run `setup.sh` or install the Vulkan SDK 1.3, Python 3.10 and the required Python packages (see below)
 2. Execute the script `python3 regularization.py`
 
 ### Vulkan SDK
@@ -20,6 +20,11 @@ sudo apt-get install -y python3-pip
 python3 -m pip install matplotlib numpy vulkan
 ```
 
+# Installation (Windows)
+1. Install the Vulkan SDK 1.3 from https://vulkan.lunarg.com/sdk/home#windows
+2. Install Python 3.10 https://www.python.org/downloads/
+3. Install the required python packages: `python3 -m pip install matplotlib numpy vulkan`
+4. Execute the script: `python3 regularization.py`
 
 # Citation
 **Paper:** Hennes Rave, Vladimir Molchanov, Lars Linsen. "De-cluttering Scatterplots with Integral Images." IEEE Transactions on Visualization and Computer Graphics (2024): 1-13, DOI: https://www.doi.org/10.1109/tvcg.2024.3381453
